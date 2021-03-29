@@ -16,7 +16,7 @@
 
     <!-- Project-specific properties -->
     <exec.mainClass>com.google.sps.ServerMain</exec.mainClass>
-    <googleCloudProjectId>swilliams-sps-spring21</googleCloudProjectId>
+    <googleCloudProjectId>mirvine-sps-spring21</googleCloudProjectId>
   </properties>
 
   <dependencies>
