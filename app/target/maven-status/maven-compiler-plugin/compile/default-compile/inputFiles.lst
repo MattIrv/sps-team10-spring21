@@ -1,1 +1,6 @@
+/home/swilliams/sps-team10-spring21/app/src/main/java/com/google/sps/servlets/ListTasksServlet.java
+/home/swilliams/sps-team10-spring21/app/src/main/java/com/google/sps/servlets/DeleteTaskServlet.java
+/home/swilliams/sps-team10-spring21/app/src/main/java/com/google/sps/servlets/NewTaskServlet.java
+/home/swilliams/sps-team10-spring21/app/src/main/java/com/google/sps/data/Task.java
 /home/swilliams/sps-team10-spring21/app/src/main/java/com/google/sps/ServerMain.java
+/home/swilliams/sps-team10-spring21/app/src/main/java/com/google/sps/servlets/PageViewServlet.java
