@@ -1,5 +1,6 @@
 const tabs = document.querySelectorAll('[data-tab-target]')
 const tabContents = document.querySelectorAll('[data-tab-content]')
+const buttons = document.querySelectorAll('[button]')
 
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {
@@ -12,5 +13,11 @@ tabs.forEach(tab => {
         })
         tab.classList.add('active')
         target.classList.add('active')
+    })
+})
+
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        
     })
 })
