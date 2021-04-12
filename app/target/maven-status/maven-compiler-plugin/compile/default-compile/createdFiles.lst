@@ -1,1 +1,6 @@
+com/google/sps/servlets/NewTaskServlet.class
+com/google/sps/servlets/ListTasksServlet.class
 com/google/sps/ServerMain.class
+com/google/sps/data/Task.class
+com/google/sps/servlets/PageViewServlet.class
+com/google/sps/servlets/DeleteTaskServlet.class
