@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.gson.Gson;
 
 /** Servlet that returns HTML that contains the page view count. */
-@WebServlet() //ADD WEBSITE LINK
+@WebServlet("/page-views") //ADD WEBSITE LINK
 public class PageViewServlet extends HttpServlet {
 
   private int pageViews = 0;

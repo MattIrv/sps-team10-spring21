@@ -8,7 +8,7 @@
     <script src="script.js" defer></script>
     <link href="styles.css" rel="stylesheet">
 </head>
-<body>
+<body onload="loadTasks()">
     <ul class="tabs">
         <li data-tab-target="#about" class="active tab">About</li>
         <li data-tab-target="#resources" class="tab">Resources</li>
@@ -30,7 +30,14 @@
         <div id="resources" data-tab-content>
             <h1>Resources</h1>
             <p>Resources info</p>
+            <form method="POST" action="/new-task">
+            <input type="text" name="title" />
+            <br/>
+            <button>Submit</button>
+            </form>
+            <ul id="task-list"></ul>            
         </div>
+        
         <div id="contact" data-tab-content>
 
         
@@ -48,6 +55,7 @@
                         <p> My favorite place to visit was Germany because of the great food, 
                         however I loved Switzerland because of the Swiz chocolate and the Swiz Alps!</p>
                         <p>Anta's email</p>
+                        <p><a href="https://www.linkedin.com/in/anta-f-b8203b12b/"></a>LinkedIn</p></a>
                         <p><button class="button" onclick="https://www.linkedin.com/in/anta-f-b8203b12b/">LinkedIn</button></p>
                 </div>
             </div>
@@ -63,7 +71,7 @@
                     with long terms goals of impacting lives positively through the 
                     use of software development.</p>
                     <p>sheneska101@gmail.com</p>
-                    <p><a href="https://www.linkedin.com/in/sheneska-williams-04829a1a6/"></a><button class="button">LinkedIn</p></a>
+                    <p><a href="https://www.linkedin.com/in/sheneska-williams-04829a1a6/"></a>LinkedIn</p></a>
                 </div>
             </div>
         </div>
@@ -78,6 +86,7 @@
                     Through software engineering, data science, or product management, I hope to create a positive social impact 
                     that will amplify the voices of underrepresented communities. </p>
                     <p>luiscastro2768@gmail.com</p>
+                    <p><a href=https://www.linkedin.com/in/luiscastro7/"></a>LinkedIn</p></a>
                     <p><button class="button" onclick="https://www.linkedin.com/in/luiscastro7/">LinkedIn</button></p>
                 </div>
             </div>
